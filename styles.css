@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #21382e;
+     /* Set the initial color */
+    /* Define the transition: [property] [duration] [timing-function] */
+    transition: background-color 0.5s ease-in-out;
+}
+body {
+  transition: background-color 1s ease;
+}
+.dark-mode {
+  background-color: #123f4b;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #154235;
+}
+/* Targets all paragraphs */
+p {
+  color: #0d3d33;
+}
+
+/* Targets elements with a specific class */
+.highlight {
+  color: rgb(27, 105, 37);
+}
+h1 {
+  color: #26c494;
+  transform: translateY(50px);
+}
+h2 {
+  color: #26c494;
+  transform: translateY(100px);
+}
+button{
+  color: #26c494;
+  transform: translateY(100px);
+}
+
+
+
+
